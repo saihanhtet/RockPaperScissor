@@ -15,9 +15,9 @@ public class Game extends JFrame {
     int computer_score = 0;
     ImageIcon imageRock,imagePaper,imageScissor;
     public void setup() {
-        imageRock = new ImageIcon(new ImageIcon("src\\rock.png").getImage().getScaledInstance(80,80,Image.SCALE_DEFAULT));
-        imagePaper = new ImageIcon(new ImageIcon("src\\paper.png").getImage().getScaledInstance(80,80,Image.SCALE_DEFAULT));
-        imageScissor = new ImageIcon(new ImageIcon("E:\\Java\\RockPaperScissor\\src\\scissor.png").getImage().getScaledInstance(80,80,Image.SCALE_DEFAULT));
+        imageRock = new ImageIcon(new ImageIcon("rock.png").getImage().getScaledInstance(80,80,Image.SCALE_DEFAULT));
+        imagePaper = new ImageIcon(new ImageIcon("paper.png").getImage().getScaledInstance(80,80,Image.SCALE_DEFAULT));
+        imageScissor = new ImageIcon(new ImageIcon("scissor.png").getImage().getScaledInstance(80,80,Image.SCALE_DEFAULT));
 
         // create labels
         JLabel score = new JLabel("Score");
